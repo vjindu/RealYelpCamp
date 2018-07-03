@@ -1,0 +1,15 @@
+{
+  "name": "v0.1",
+  "version": "0.1.0",
+  "description": "yelpCamp v0.1 beta version",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vij",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
