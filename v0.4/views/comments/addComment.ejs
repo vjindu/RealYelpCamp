@@ -1,0 +1,26 @@
+<% include ../partials/header.ejs %>
+
+<div class = "container">
+    <div class = "row">
+
+        <h1 style = "text-align: center">Add a Comment about the campground</h1>
+        <div style = "width: 30%; margin: 25px auto;">
+            <form action= "/campgrounds/<%=campground._id%>/comments/new" method = "POST">
+            <!--<div class = "form-group">
+                    <input class = "form-control" type="text" name="name" value="author">
+                </div>  -->
+
+                <div class = "form-group">
+                    <input class = "form-control" type="text" name="description" value="campground comments">
+                </div>
+                <button class="btn btn-primary btn-lg btn-block" type="submit"> Submit </button>
+            </form>
+            <div style = "margin: 25px auto">
+                <a href="/campgrounds/<%=campground._id%>"> return to Campground</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<% include ../partials/footer.ejs %>

@@ -1,0 +1,19 @@
+{
+  "name": "v0.3",
+  "version": "0.2.0",
+  "description": "yelpCamp v0.3 Authentication and comments",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vij",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "client-sessions": "^0.8.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "mongoose": "^5.2.5"
+  }
+}
